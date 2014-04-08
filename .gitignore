@@ -1,0 +1,11 @@
+# PHP Storm
+.idea/
+
+# Vagrant VM
+.vagrant/
+
+# Laravel
+laravel/bootstrap/compiled.php
+laravel/vendor
+laravel/composer.phar
+.DS_Store
