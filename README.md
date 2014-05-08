@@ -15,7 +15,7 @@ Install
 
 1. In terminal, go to root directory of cloned repository (where Vagrantfile is located)
 2. Type "Vagrant up"
-3. Wait for Vagrant VM to boot. Laravel will then be installed (with a mysql database)
+3. Wait for Vagrant VM to boot. Laravel will then be installed.
 
 Accessing the Virtual Machine - SSH
 ===================================
