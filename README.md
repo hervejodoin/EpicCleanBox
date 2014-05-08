@@ -20,10 +20,10 @@ Install
 Accessing the Virtual Machine - SSH
 ===================================
 
-- Accessing the VM: Type "Vagrant SSH" -> You are now controlling your Ubuntu VM via the command line
-- Laravel dir: "cd /var/www/webapp/laravel"
-- To find your VM's IP: Type "ifconfig" and take note of the ip address starting with "192.168"
-- Running Composer: Type "composer install". (only required on newly cloned repositories). If Composer is already installed, update Composer by typing "composer update".
+4. Accessing the VM: Type "Vagrant SSH" -> You are now controlling your Ubuntu VM via the command line
+5. Laravel dir: "cd /var/www/webapp/laravel"
+6. To find your VM's IP: Type "ifconfig" and take note of the ip address starting with "192.168"
+7. Running Composer: Type "composer install". (only required on newly cloned repositories). If Composer is already installed, update Composer by typing "composer update".
 
 Accessing the web server
 ========================
