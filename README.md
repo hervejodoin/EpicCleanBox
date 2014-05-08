@@ -13,22 +13,22 @@ http://kvz.io/blog/2013/01/16/vagrant-tip-keep-virtualbox-guest-additions-in-syn
 Install
 =======
 
--1. In terminal, go to root directory of cloned repository (where Vagrantfile is located)
--2. Type "Vagrant up"
--3. Wait for Vagrant VM to boot. Laravel will then be installed and its database seeded.
+1. In terminal, go to root directory of cloned repository (where Vagrantfile is located)
+2. Type "Vagrant up"
+3. Wait for Vagrant VM to boot. Laravel will then be installed and its database seeded.
 
 Accessing the Virtual Machine - SSH
 ===================================
 
--4. Accessing the VM: Type "Vagrant SSH" -> You are now controlling your Ubuntu VM via the command line
--5. Laravel dir: "cd /var/www/webapp/laravel"
--6. To find your VM's IP: Type "ifconfig" and take note of the ip address starting with "192.168"
--7. Running Composer: Type "composer install". (only required on newly cloned repositories). If Composer is already installed, update Composer by typing "composer update".
+4. Accessing the VM: Type "Vagrant SSH" -> You are now controlling your Ubuntu VM via the command line
+5. Laravel dir: "cd /var/www/webapp/laravel"
+6. To find your VM's IP: Type "ifconfig" and take note of the ip address starting with "192.168"
+7. Running Composer: Type "composer install". (only required on newly cloned repositories). If Composer is already installed, update Composer by typing "composer update".
 
 Accessing the web server
 ========================
 
-Point your browser to the address that you took note of at Install Step 6
+Point your browser to the address that you took note of when running ifconfig
 
 
 Other info
