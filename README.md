@@ -3,12 +3,12 @@ EpicDevBox
 
 Clean Laravel base box for Epic Stuff
 
-Note:
-=====
 
-If getting errors upon updating VirtualBox follow the following instructions:
-http://kvz.io/blog/2013/01/16/vagrant-tip-keep-virtualbox-guest-additions-in-sync/
+What you'll need
+================
 
+1. Virtual box : https://www.virtualbox.org/
+2. Vagrant : http://www.vagrantup.com/
 
 Install
 =======
@@ -37,4 +37,10 @@ Other info
 - After having updated Laravel, you might need to reinstall and update Composer
 - When in guest machine, you can talk to host machine via 192.168.56.1
 - Mysql Root account is u:root p:root
+
+Note:
+=====
+
+If getting errors upon updating VirtualBox follow the following instructions:
+http://kvz.io/blog/2013/01/16/vagrant-tip-keep-virtualbox-guest-additions-in-sync/
 
